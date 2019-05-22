@@ -1,5 +1,5 @@
 # metrics-collection-script
-script for test
+
 How to use this script (for example in CentOS 7)
 
 You must install the following applications:
