@@ -10,8 +10,8 @@ You must install the following applications:
 1 The next step is to download this repository to your Linux server:
 	$git clone https://github.com/xzgooglik/metrics-collection-script.git
 
-2 Go to current directory "metrics collection script":
-	$cd metrics collection script/
+2 Go to current directory "metrics-collection-script":
+	$cd metrics-collection-script/
 
 3 Use "docker build" for create new image: 
 	$docker build -t metrics-script . 
@@ -25,7 +25,7 @@ You must install the following applications:
 	or 
 	$./metrics.py mem
 
-5 Or run your container with next commad:
+5 Or run your container with next command:
 	$docker run -it metrics-script ./metrics.py cpu
   or
 	$docker run -it metrics-script ./metrics.py mem
